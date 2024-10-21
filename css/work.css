@@ -1,0 +1,151 @@
+#work {
+  height: 100vh;
+  background-color: var(--second);
+  scroll-snap-align: start;
+}
+.sub-title {
+  width: 80vw;
+  margin: auto;
+  font-size: 1.6rem;
+  color: var(--third);
+  font-family: "Playwrite CU", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.work-content {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.work-card{
+  background-color: white;
+  width: 25vw;
+  padding: 20px 10px;
+  border-radius: 20px;
+}
+
+.card-head{
+  height: 150px;
+  background-size: 100%;
+  background-position: top;
+  transition: all 200ms linear;
+  border-radius: 10px;
+  padding: 10px;
+}
+.card-head:hover{
+  background-size: 110%;
+}
+.project-title{
+  margin: 10px 0;
+  display: block;
+  font-size: 1rem;
+}
+.project-type{
+  font-size: .7rem;
+}
+
+.project-info{
+  font-size: .8rem;
+  line-height: 1.2rem;
+  margin: 10px 0;
+  font-weight: 400;
+}
+.more{
+  display: none;
+}
+
+.para-btn{
+  font-weight: 700;
+  color: #4F75FF;
+  border: none;
+  border-radius: 5px;
+}
+.para-btn:hover{
+  cursor: pointer;
+}
+.card-footer{
+  bottom: 5px;
+}
+.card-footer>a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 768px) {
+  #work {
+    width: 100%;
+    height: auto;
+  }
+
+  #work > h2 {
+    font-size: 1.5rem;
+  }
+  .work-content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0; 
+    flex-direction: column;
+    justify-content: center;
+  }
+  .work-card{
+    width: 95%;
+    margin: 10px auto;
+}
+  .project-info{
+    font-size: small;
+    height: 25vh;
+    width: auto;
+  }
+}
+
+/* contact section */
+#contact {
+  height: 100vh;
+  background-color: #0b0c10;
+  scroll-snap-align: start;
+}
+.contact-content {
+  width: 80%;
+  color: white;
+  margin: auto;
+  margin-top: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+#contact-details > span {
+  display: block;
+  margin: 1.3rem 0;
+}
+#social-contact {
+  display: flex;
+  align-items: center;
+}
+#social-contact > a {
+  color: white;
+  display: block;
+  font-size: 1.7rem;
+  margin: 0 1rem;
+  transition: all 300ms ease-in-out;
+}
+#social-contact > a:hover {
+  transform: scale(1.3);
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-content {
+    margin-top: 0;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+  }
+  .sub-title {
+    font-size: 1.5em;
+  }
+}

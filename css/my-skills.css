@@ -1,0 +1,159 @@
+#mySkill {
+  height: 100vh;
+  background-color: #1b262c;
+  scroll-snap-align: start;
+}
+#skill-content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+.skill-icons {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  justify-items: center;
+  width: 40%;
+  height: 80%;
+}
+.hexagon-shape {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 500ms ;
+}
+.hexagon-shape:hover{
+  transform: scale(1.3);
+}
+#python:hover{
+  filter: drop-shadow(0 0 10px #ffc107);
+}
+#javascript:hover{
+  filter: drop-shadow(0 0 10px #f7df1e);
+}
+#html:hover{
+  filter: drop-shadow(0 0 10px #e44d26);
+}
+#css:hover{ 
+  filter: drop-shadow(0 0 10px #264de4);
+}
+#django:hover{
+  filter: drop-shadow(0 0 10px #004d40);
+}
+#react-js:hover{
+  filter: drop-shadow(0 0 10px #61dbfb);
+}
+#node-js:hover{
+  filter: drop-shadow(0 0 10px #68a063);
+}
+#redux:hover{
+  filter: drop-shadow(0 0 10px #764abc);
+}
+#tailwind-css:hover{
+  filter: drop-shadow(0 0 10px #38bdf8);
+}
+#vs-code:hover{
+  filter: drop-shadow(0 0 10px #29b6f6);
+}
+#pycharm:hover{
+  filter: drop-shadow(0 0 10px #20d789);
+}
+#mongodb:hover{
+  filter: drop-shadow(0 0 10px #4db33d);
+}
+#postgres:hover{
+  filter: drop-shadow(0 0 10px #0277bd);
+}
+#github:hover{
+  filter: drop-shadow(0 0 10px #181717);
+} 
+#express:hover{
+  filter: drop-shadow(0 0 10px #000000);
+}
+#bootstrap:hover{
+  filter: drop-shadow(0 0 10px #7c4dff);
+}
+
+.code-icons {
+  display: block;
+  width: 60px;
+}
+
+.skill-desc {
+  width: 50%;
+  height: 80%;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.skill-desc-p{
+  position: absolute;
+  width: 90%;
+  font-size: 0.8rem;
+  left: 0;
+  animation: para-entry 500ms linear;
+  text-align: left;
+}
+#skill-name{
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#skill-exp{
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+.star{
+  color: #ffc107;
+  font-size: 1.5rem;
+}
+.bi-star, .bi-star-fill{
+  margin: 0 5px;
+}
+@keyframes para-entry {
+  0%{
+    opacity: 0;
+    left: 40px;
+  }
+  100%{
+    opacity: 1;
+    left: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #skill-content {
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: unset;
+  }
+  .skill-icons {
+    width: 100%;
+    grid-template-columns: auto auto auto auto;
+    height: 90%;
+  }
+  .skill-desc-p{
+    font-size: small;
+  }
+ .code-icons{
+   width: 35px;
+ } 
+ .skill-desc{
+  width: 100%;
+ }
+ .skill-desc-p{
+  top: 20px;
+ }
+ .star{
+  font-size: small;
+ }
+}

@@ -1,0 +1,116 @@
+{
+  "skills": [
+    {
+      "name": "python",
+      "desc": {
+        "info": "Python programming is a versatile, high-level language known for its simplicity and readability, widely used in web development, data analysis, automation, and more.",
+        "exp": "Advanced"
+      }
+    },
+    {
+      "name": "javascript",
+      "desc": {
+        "info": "JavaScript is a dynamic, high-level scripting language primarily used to create interactive effects and functionalities on websites.",
+        "exp": "Advanced"
+      }
+    },
+    {
+      "name": "html",
+      "desc": {
+        "info": "HTML (HyperText Markup Language) is the standard language used to create and structure content on the web, defining elements like headings, paragraphs, links, and multimedia.",
+        "exp": "Advanced"
+      }
+    },
+    {
+      "name": "css",
+      "desc": {
+        "info": "CSS (Cascading Style Sheets) is a stylesheet language used to control the appearance and layout of HTML elements on a web page, including colors, fonts, and spacing.",
+        "exp": "Advanced"
+      }
+    },
+    {
+      "name": "django",
+      "desc": {
+        "info": "Django is a high-level Python web framework that enables rapid development of secure and scalable web applications with a clean and pragmatic design.",
+        "exp": "Advanced"
+      }
+    },
+    {
+      "name": "react-js",
+      "desc": {
+        "info": "React.js is a JavaScript library for building user interfaces, particularly single-page applications, by creating reusable UI components and managing state efficiently.",
+        "exp": "Intermediate"
+      }
+    },
+    {
+      "name": "redux",
+      "desc": {
+        "info": "Redux is a state management library for JavaScript applications that provides a predictable way to manage and update the application state through a unidirectional data flow.",
+        "exp": "Intermediate"
+      }
+    },
+    {
+      "name": "node-js",
+      "desc": {
+        "info": "Node.js is a runtime environment that allows JavaScript to be executed on the server side, enabling the development of scalable and high-performance network applications.",
+        "exp": "Intermediate"
+      }
+    },
+    {
+      "name": "mongodb",
+      "desc": {
+        "info": "MongoDB is a NoSQL database that stores data in flexible, JSON-like documents, making it easy to handle large volumes of unstructured or semi-structured data.",
+        "exp": "Advanced"
+      }
+    },
+    {
+      "name": "postgresql",
+      "desc": {
+        "info": "PostgreSQL is an advanced, open-source relational database management system known for its robustness, extensibility, and support for complex queries and transactions.",
+        "exp": "Intermediate"
+      }
+    },
+    {
+      "name": "tailwind-css",
+      "desc": {
+        "info": "Tailwind CSS is a utility-first CSS framework that provides a set of low-level, customizable classes to build modern, responsive designs quickly and efficiently.",
+        "exp": "Advanced"
+      }
+    },
+    {
+      "name": "github",
+      "desc": {
+        "info": "GitHub is a web-based platform for version control and collaborative software development, using Git to manage and track code changes and facilitate teamwork.",
+        "exp": "Advanced"
+      }
+    },
+    {
+      "name": "vs-code",
+      "desc": {
+        "info": "VS Code is a powerful code editor that provides a wide range of features, including syntax highlighting, code completion, code refactoring, and code formatting.",
+        "exp": "Intermediate"
+      }
+    },
+    {
+      "name": "pycharm",
+      "desc": {
+        "info": "PyCharm is a powerful IDE for Python development, providing a wide range of features, including syntax highlighting, code completion, code refactoring, and code formatting.",
+        "exp": "Advanced"
+      }
+    },
+    {
+      "name": "bootstrap",
+      "desc": {
+        "info": "Bootstrap is a front-end framework that provides pre-designed UI components and responsive grid systems to streamline the development of visually appealing and mobile-friendly websites.",
+        "exp": "Advanced"
+      }
+    },
+    {
+      "name": "express-js",
+      "desc": {
+        "info": "Express.js is a minimal and flexible Node.js web application framework that simplifies the creation of robust and scalable server-side applications and APIs.",
+        "exp": "Intermediate"
+      }
+    }
+  ]
+}
