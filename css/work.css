@@ -99,7 +99,7 @@
 }
   .project-info{
     font-size: small;
-    height: 25vh;
+    height: auto;
     width: auto;
   }
 }
