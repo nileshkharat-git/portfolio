@@ -15,14 +15,14 @@
     
     <nav id="target">
       <ul class="nav-menu">
-        <li class="nav-links"><a href="#mySkill">My Skills</a></li>
         <li class="nav-links"><a href="#work">Work</a></li>
+        <li class="nav-links"><a href="#mySkill">My Skills</a></li>
         <li class="nav-links"><a href="#contact">Connect</a></li>
       </ul>
     </nav>
     <div class="content">
       <div id="image-div">
-        <img src="./media/img-png.png" alt="img not loaded" id="image" />
+        <img src="./media/profilePic.png" alt="img not loaded" id="image" />
       </div>
       <p class="intro">
         <span id="name">Nilesh Kharat,</span><br />
@@ -31,8 +31,76 @@
         full-stack application development.
       </p>
     </div>
+    <div id="down-arrow">
+      
+    </div>
   </div>
-
+  <div id="work">
+    <h2 class="sub-title">&lt;MyWork/&gt;</h2>
+    
+    <div class="work-content">
+      <div class="work-card">
+        <div class="card-head" style="background-image: url(./media/projects-images/chatApp.png);">
+        </div>
+        <div class="card-body">
+          <div class="project-title">
+            <h3 class="project-name">Samvaad</h3>
+            <span class="project-type">Chat Application</span>
+          </div>
+          <p class="project-info">
+            Samvaad is an innovative chat application designed for seamless communication and community engagement.
+            Built with a React.js front<span id="dots-chat" class="dots">...</span><span id="more-chat" class="more">end and a Node.js backend, it offers a smooth, responsive user experience. A
+            standout feature is its OTP login system, allowing users to securely access the app with a one-time
+            password. After logging in, users can create or join chat rooms, fostering diverse discussions on various
+            topics.</span><span id="para-btn-chat" onclick="readMore('chat')" class="para-btn">Read more</span>
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/nileshkharat-git/chat-app" target="_blank"><i class="bi bi-github"></i></a>
+        </div>
+      </div>
+      <div class="work-card">
+        <div class="card-head" style="background-image: url(./media/projects-images/financeTracker.png);">
+        </div>
+        <div class="card-body">
+          <div class="project-title">
+            <h3 class="project-name">MoneyMap</h3>
+            <span class="project-type">Personal Finance Tracker</span>
+          </div>
+          <p class="project-info">
+            MoneyMap is a personal finance tracker designed to help users manage their finances effectively. The front
+            end is developed using React.js,<span id="dots-tracker" class="dots">...</span><span id="more-tracker" class="more">while the back end utilizes the Django Rest Framework, ensuring a robust
+            and efficient system. Key features include tracking income and expenses, as well as tools to help users
+            achieve their financial goals.This application aims to empower users with insights into their financial health and support them in making informed financial decisions.</span><span id="para-btn-tracker" onclick="readMore('tracker')" class="para-btn">Read more</span>
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/nileshkharat-git/finance-tracker" target="_blank"><i
+              class="bi bi-github"></i></a>
+        </div>
+      </div>
+      <div class="work-card">
+        <div class="card-head" style="background-image: url(./media/projects-images/home_page.png);">
+        </div>
+        <div class="card-body">
+          <div class="project-title">
+            <h3 class="project-name">WorldBlog</h3>
+            <span class="project-type">Blogging Platform</span>
+          </div>
+          <p class="project-info">
+            The WorldBlog application, developed using the Django framework, offers a comprehensive platform for content
+            creation and<span id="dots-blog" class="dots"> ...</span><span id="more-blog" class="more">management. The frontend is built with HTML, CSS, and JavaScript,ensuring a visually appealing
+            and responsive user experience across all devices.  Users can easily register, log in, and create engaging
+            blog posts that support rich text formatting, images, and tags for better organization.</span><span id="para-btn-blog" onclick="readMore('blog')" class="para-btn">Read More</span>
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/nileshkharat-git/blog-application" target="_blank"><i
+              class="bi bi-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
   <div id="mySkill">
     <h2 class="sub-title">.my-skills</h2>
     <div id="skill-content">
@@ -95,72 +163,7 @@
     </div>
   </div>
 
-  <div id="work">
-    <h2 class="sub-title">&lt;MyWork/&gt;</h2>
-    
-    <div class="work-content">
-      <div class="work-card">
-        <div class="card-head" style="background-image: url(./media/projects-images/home_page.png);">
-        </div>
-        <div class="card-body">
-          <div class="project-title">
-            <h3 class="project-name">WorldBlog</h3>
-            <span class="project-type">Blogging Platform</span>
-          </div>
-          <p class="project-info">
-            The WorldBlog application, developed using the Django framework, offers a comprehensive platform for content
-            creation and<span id="dots-blog" class="dots"> ...</span><span id="more-blog" class="more">management. The frontend is built with HTML, CSS, and JavaScript,ensuring a visually appealing
-            and responsive user experience across all devices.  Users can easily register, log in, and create engaging
-            blog posts that support rich text formatting, images, and tags for better organization.</span><span id="para-btn-blog" onclick="readMore('blog')" class="para-btn">Read More</span>
-          </p>
-        </div>
-        <div class="card-footer">
-          <a href="https://github.com/nileshkharat-git/blog-application" target="_blank"><i
-              class="bi bi-github"></i></a>
-        </div>
-      </div>
-      <div class="work-card">
-        <div class="card-head" style="background-image: url(./media/projects-images/chatApp.png);">
-        </div>
-        <div class="card-body">
-          <div class="project-title">
-            <h3 class="project-name">Samvaad</h3>
-            <span class="project-type">Chat Application</span>
-          </div>
-          <p class="project-info">
-            Samvaad is an innovative chat application designed for seamless communication and community engagement.
-            Built with a React.js front<span id="dots-chat" class="dots">...</span><span id="more-chat" class="more">end and a Node.js backend, it offers a smooth, responsive user experience. A
-            standout feature is its OTP login system, allowing users to securely access the app with a one-time
-            password. After logging in, users can create or join chat rooms, fostering diverse discussions on various
-            topics.</span><span id="para-btn-chat" onclick="readMore('chat')" class="para-btn">Read more</span>
-          </p>
-        </div>
-        <div class="card-footer">
-          <a href="https://github.com/nileshkharat-git/chat-app" target="_blank"><i class="bi bi-github"></i></a>
-        </div>
-      </div>
-      <div class="work-card">
-        <div class="card-head" style="background-image: url(./media/projects-images/financeTracker.png);">
-        </div>
-        <div class="card-body">
-          <div class="project-title">
-            <h3 class="project-name">MoneyMap</h3>
-            <span class="project-type">Personal Finance Tracker</span>
-          </div>
-          <p class="project-info">
-            MoneyMap is a personal finance tracker designed to help users manage their finances effectively. The front
-            end is developed using React.js,<span id="dots-tracker" class="dots">...</span><span id="more-tracker" class="more">while the back end utilizes the Django Rest Framework, ensuring a robust
-            and efficient system. Key features include tracking income and expenses, as well as tools to help users
-            achieve their financial goals.This application aims to empower users with insights into their financial health and support them in making informed financial decisions.</span><span id="para-btn-tracker" onclick="readMore('tracker')" class="para-btn">Read more</span>
-          </p>
-        </div>
-        <div class="card-footer">
-          <a href="https://github.com/nileshkharat-git/finance-tracker" target="_blank"><i
-              class="bi bi-github"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
+ 
   <div id="contact">
     <h2 class="sub-title">let's connect;</h2>
     <div class="contact-content">
