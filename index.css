@@ -111,7 +111,9 @@ nav {
   font-size: 3rem;
   font-weight: 700;
 }
-
+#view-work {
+  display: none;
+}
 @media only screen and (max-width: 768px) {
   html {
     scroll-snap-type: none;
@@ -148,7 +150,18 @@ nav {
     font-size: 2rem;
     display: block;
   }
-
+  #view-work {
+    display: block;
+    width: 150px;
+    text-align: center;
+    background-color: var(--third);
+    color: black;
+    border-radius: 10px;
+    font-size: .8rem;
+    margin: 50px auto;
+    padding: 5px 10px;
+    text-decoration: none;
+  }
   .active {
     animation: 400ms slidein ease-in;
     left: 0vw;
