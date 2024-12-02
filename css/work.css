@@ -136,7 +136,12 @@
 #social-contact > a:hover {
   transform: scale(1.3);
 }
-
+#cv a{
+  color: black;
+  padding: 10px 20px;
+  background-color: white;
+  text-decoration: none;
+}
 @media only screen and (max-width: 768px) {
   .contact-content {
     margin-top: 0;
